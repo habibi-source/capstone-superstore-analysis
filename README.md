@@ -160,8 +160,10 @@ Key visualizations include:
 │   └── superstore_complete_analysis_report.txt    # Detailed Findings
 ├── visualizations/
 │   ├── dashboard_overview.png       # Business dashboard
-│   ├── regional_analysis.png        # Geographic insights
+│   ├── regional_&_consumer_analysis.png        # Geographic insights
 │   └── trend_analysis.png           # Temporal patterns
+|   └── pie_chart_consumer_graphic_analysis.png
+|   └── top_product_analysis.png
 ├── presentation/
 │   └── Superstore_Analysis.pdf      # Project presentation
 └── README.md                        # Project documentation
