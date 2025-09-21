@@ -101,7 +101,7 @@ This project leverages **IBM Granite 3.0-8B-Instruct** model for advanced analyt
 ```python
 # IBM Granite model integration
 from langchain_community.llms import Replicate
-llm = Replicate(model="ibm-granite/granite-3.0-8b-instruct")
+llm = Replicate(model="ibm-granite/granite-3.3-8b-instruct")
 
 # AI-powered analysis
 insights = llm.invoke(business_analysis_prompt)
@@ -149,13 +149,15 @@ Key visualizations include:
 
 ```
 ├── notebooks/
-│   └── Superstore_Analysis.ipynb     # Main analysis notebook
+│   └── Superstore_Analysis_Capstone.ipynb     # Main analysis notebook
 ├── data/
 │   └── train.csv                     # Raw dataset
 ├── results/
-│   ├── business_metrics.csv         # Key performance metrics
-│   ├── analysis_report.txt          # Detailed findings
-│   └── ai_insights.txt              # IBM Granite insights
+│   ├── superstore_business_metrics.csv         # Key performance metrics
+│   ├── superstore_category_performance.csv          
+│   └── superstore_regional_performance.csv
+│   └── superstore_ai_insight.txt              # IBM Granite insights
+│   └── superstore_complete_analysis_report.txt    # Detailed Findings
 ├── visualizations/
 │   ├── dashboard_overview.png       # Business dashboard
 │   ├── regional_analysis.png        # Geographic insights
@@ -169,8 +171,6 @@ Key visualizations include:
 
 - **Google Colab Notebook:** [[Link to Google Colab](https://colab.research.google.com/drive/1QRpklVoEB00rxiHu5ENv0Y_bK52TvEKY?usp=sharing)]
 - **Dataset Source:** [[Kaggle/Dataset Link](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting?resource=download)]
-- **Presentation:** [Link to presentation file]
-- **Live Demo:** [If applicable]
 
 ## 🛠️ Technologies Used
 
